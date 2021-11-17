@@ -1,6 +1,6 @@
 # ECPayDotNetCore
 
-##### tags : 'ASP .NET Core 2.2'
+##### tags : `ASP .NET Core 2.2`
 
 Since there are no asp.net core 2.2 compatible class library for ECPay API (https://github.com/ECPay/ECpayAIO_Net)
 
