@@ -1,0 +1,11 @@
+﻿@model ECPay.Services.Checkout.PaymentConfiguration
+
+@{
+    Layout = "ECPay";
+}
+
+<form asp-controller="Payment" asp-action="Checkout" method="post">
+    <div class="payment">
+        <button class="btn btn-payment mt-3" type="submit">Test Checkout</button>
+    </div>
+</form>
