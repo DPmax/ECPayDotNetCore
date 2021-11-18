@@ -13,24 +13,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Views\ECPay.cshtml" />
-    <None Remove="Views\_ViewImports.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Views\ECPay.cshtml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Views\_ViewImports.cshtml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
+    <Folder Include="Controllers\" />
     <Folder Include="Extensions\" />
     <Folder Include="Helper\" />
     <Folder Include="Logger\" />
     <Folder Include="Metadata\" />
+    <Folder Include="Views\" />
     <Folder Include="WCF\" />
     <Folder Include="SPCheckOut\" />
   </ItemGroup>
@@ -38,10 +26,6 @@
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="System.Runtime.Caching" Version="4.5.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
   </ItemGroup>
 
   <ItemGroup>

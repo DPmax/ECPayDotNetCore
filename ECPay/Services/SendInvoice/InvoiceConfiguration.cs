@@ -103,58 +103,6 @@ namespace ECPay.Services.SendInvoice
 
         #endregion - Private 屬性欄位成員
 
-        //public InvoiceCreate Generate(PaymentResult result, bool test = false)
-        //{
-        //    var inv = new InvoiceCreate();
-
-        //    if (test)
-        //    {
-        //        inv.TimeStamp = (Convert.ToInt32((DateTime.Now.ToUniversalTime().Ticks - 621355968000000000) / 10000000));
-        //        inv.MerchantID = result.MerchantID;
-        //        inv.RelateNumber = result.TradeNo;
-        //        inv.CustomerID = result.StoreID;
-        //        inv.CustomerIdentifier = "";//統一編號
-        //        inv.CustomerName = "";//客戶名稱
-        //        inv.CustomerAddr = "客戶地址";//客戶地址
-        //        inv.CustomerPhone = "0912345678";//客戶手機號碼
-        //        inv.CustomerEmail = "robby@calerie.com";//客戶電子信箱
-        //        //_inv._clearanceMark = CustomsClearanceMarkEnum.None;//通關方式
-        //        inv.Print = EPrint.No;//列印註記
-        //        inv.Donation = EDonation.No;//捐贈註記
-        //        inv.LoveCode = "";//愛心碼
-        //        inv.carruerType = ECarruerType.PhoneBarcode;//載具類別
-        //        inv.CarruerNum = "/6G+X3LQ".Replace('+', ' '); //依API說明,把+號換成空白
-        //        //_inv._taxType = TaxTypeEnum.DutyFree;//課稅類別
-        //        inv.SalesAmount = result.TradeAmt.ToString();//發票金額。含稅總金額。
-        //        inv.InvoiceRemark = "TEST";//備註
-        //        inv.invType = ETheWordType.Normal;//發票字軌類別
-        //        //inv.Vat = EVat.No;//商品單價是否含稅
-        //        inv.Items.Add(new InvoiceItem()
-        //        {
-        //            ItemName = "筆記本",//商品名稱
-        //            ItemCount = "2",//商品數量
-        //            ItemWord = "個",//單位
-        //            ItemPrice = "500",//商品單價
-        //            //ItemTaxType  =TaxTypeEnum.DutyFree//商品課稅別
-        //            ItemAmount = "1000",//總金額
-        //        });
-        //        inv.Items.Add(new InvoiceItem()
-        //        {
-        //            ItemName = "電子表",//商品名稱
-        //            ItemCount = "5",//商品數量
-        //            ItemWord = "個",//單位
-        //            ItemPrice = "200",//商品單價
-        //            //ItemTaxType  =TaxTypeEnum.DutyFree//商品課稅別
-        //            ItemAmount = "1000",//總金額
-        //        });
-        //    }
-        //    else
-        //    {
-
-        //    }
-        //    return inv;
-        //}
-
         /// <summary>
         /// 開始執行發票功能, 並取得結果
         /// </summary>
