@@ -67,7 +67,7 @@ namespace ECPay.Services
 
         public static string GetValue(IDictionary<string, string> parameters, string key, string iv, EHashAlgorithm encryptType = EHashAlgorithm.SHA256)
         {
-            string checkMacValue = string.Empty;
+            var checkMacValue = string.Empty;
             var sortedParameters = parameters
                 .OrderBy(o => o.Key)
                 .Select(param => $"{param.Key}={param.Value}");
