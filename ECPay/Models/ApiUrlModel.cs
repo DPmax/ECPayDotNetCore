@@ -26,6 +26,9 @@ namespace ECPay.Models
             return _apiUrls;
         }
 
+        /// <summary>
+        /// Get API address from Resource File
+        /// </summary>
         private List<ApiUrl> GetApiUrls()
         {
             ResourceSet resourceSet;

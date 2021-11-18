@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace ECPay.Enumeration
 {
     /// <summary>
@@ -10,7 +7,7 @@ namespace ECPay.Enumeration
     public enum EActionType
     {
         /// <summary>
-        /// 關帳。Capture
+        /// 關帳。Close Account
         /// </summary>
         C = 0,
         /// <summary>
@@ -18,7 +15,7 @@ namespace ECPay.Enumeration
         /// </summary>
         R = 1,
         /// <summary>
-        /// 取消。Cancelling Capture
+        /// 取消。Cancelling Close Account
         /// </summary>
         E = 2,
         /// <summary>

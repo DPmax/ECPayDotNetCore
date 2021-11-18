@@ -11,6 +11,10 @@ using ECPay.Enumeration;
 
 namespace ECPay.Services.Action
 {
+    /// <summary>
+    /// Actions for payment Close Account, Refund, Cancel Close Account and Abandon Transaction
+    /// </summary>
+    /// <value>String(10)</value>
     public class PaymentAction : IPaymentAction
     {
         public string _url;
